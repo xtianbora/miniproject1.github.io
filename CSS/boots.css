@@ -24,7 +24,7 @@ html, body{
 }
 
 #intro {
-    background: url(/Images/bg.jpg) no-repeat center center fixed;
+    background: url(../Images/bg.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -45,8 +45,8 @@ html, body{
     color: white;
 }
 
-#fixed{
-    background: url(/Images/bg.jpg) no-repeat center center fixed;
+#fixed, #home, #resume{
+    background: url(../Images/bg.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -82,7 +82,7 @@ footer{
 
 }
 #skills{
-    background: url(/Images/bg.jpg) no-repeat center center fixed;
+    background: url(../Images/bg.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
