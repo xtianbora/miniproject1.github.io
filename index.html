@@ -16,10 +16,11 @@
 
  <header>
   <nav class="navbar fixed-top
-  navbar-expand-lg navbar-dark text-center bg-black">
+  navbar-expand-lg text-center navbar-dark bg-black bg-opacity-50">
     <div class="container-fluid">
-      <a href="#" class="navbar-brand mb-0 h1">
-        <img class="d-inline-block align-top" src="../Images/image here.jpg" width="40" height="40"> xtianbora
+      <a href="#" class="mb-0 h1">
+        <img class="d-inline-block"
+        src="../Images/web logo.png" width="120" height="30">
       </a>
       <button
         type="button"
@@ -62,14 +63,14 @@
               <i class="fa-solid fa-arrow-down-wide-short fa-fade" style="color: #ffffff;"></i>
               My Links
             </a>
-              <ul class="dropdown-menu text-center bg-dark-subtle"
+              <ul class="dropdown-menu text-center bg-dark bg-opacity-50"
               aria-labelledby="navbarDropdown">
                 <li><a href="#skills"
-                  class="dropdown-item">
+                  class="dropdown-item text-white">
                   <i class="fa-solid fa-money-check-dollar fa-fade me-2" style="color: #ffffff;"></i>My Skills</a>
                 </li>
                 <li><a href="#videos"
-                  class="dropdown-item">
+                  class="dropdown-item text-white">
                   <i class="fa-solid fa-video fa-fade me-2" style="color: #ffffff;"></i>My Videos</a>
                 </li>
               </ul>
@@ -82,33 +83,26 @@
           <button class="btn btn-outline-light"
           type="submit">Search</button>
         </form>
-
       </div>
     </div>
   </nav>
  </header>
 
 <body>
-<!-- scroll up -->
-  <div class="btn btn-outline-light bg-dark" id="scrollup">
-    <a href="#intro">
-      <i class="fa-regular fa-circle-up fa-bounce fa-lg" style="color: #ffffff;">
-      </i>
-    </a>
-  </div>
 <!-- thumbnail pic -->
   <div class="container-fluid" id="intro">
     <div class="landing-text">
       <div class="row d-flex justify-content-center mt-4 pt-5">
         <img src="../Images/intro.jpg">
       </div>
+
 <!-- i am webdev/expertise -->
-      <div class="row">
-        <h1 id="welcome"
-        class="p-3 mt-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end shadow-lg">
+      <div class="row- mt-4 bg-info bg-opacity-10
+      border border-info rounded-pill shadow-lg">
+        <h1 class="col"  id="welcome">
         I am a WEB DEVELOPER</h1>
       </div>
-      <div class="row mt-1 shadow-lg">
+      <div class="row mt-1">
       <h3 id="welcome2">My expertise is to develop and Design Creative Websites and Graphic Designs
       </h3>
       </div>
@@ -121,16 +115,16 @@
 <!-- home -->
   <main id="home">
     <div class="padding">
-    <div class="container p-3 bg-white bg-opacity-10 border border-black border-start-0 rounded-5 shadow-lg text-light">
+    <div class="container bg-white bg-opacity-50 border border-white rounded-5 shadow-lg text-light">
       <div class="row align-items-center">
-        <div class="col">
+        <div class="col-lg">
           <img src="../Images/myself.png" class="img-fluid" id="firstimg">
         </div>
         <div class="col" id="first">
-          <h5 class="text-center">Hi I'm</h5>
-          <h1 class="text-center shadow-lg rounded-5 rounded-top-0 bg-info bg-opacity-10">Christian Borromeo</h1>
+          <h5 class="text-center mt-4">Hi I'm</h5>
+          <h1 class="text-center shadow-lg rounded-5 rounded-top-0 bg-black bg-opacity-50">Christian Borromeo</h1>
           <h4 class="text-center">A Certified Web Developer</h4>
-          <p class="text-center shadow-lg p-2 me-3 ms-3 rounded-pill bg-info bg-opacity-10">
+          <p class="text-center shadow-lg p-2 me-5 ms-5 rounded-pill bg-black bg-opacity-50">
             I'm a freelance Web Designer and Developer for more than 2 years.
             My expertise is to develop and Design Creative Websites and Graphic Designs.
           </p>
@@ -142,7 +136,7 @@
 <!-- about me -->
   <div id="aboutme">
   <div class="padding">
-    <h1 id="gettoknow"> Get to know Me!</h1>
+    <h1 class="mb-5 ms-5 text-white" id="gettoknow"> Get to know Me!</h1>
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
       <div class="col">
@@ -212,14 +206,14 @@
   </div>
 
 <!-- my resume -->
-<div class="padding bg-black text-light" id="resume">
+<div class="padding" id="resume">
+  <h1 class="mb-5 text-white ms-5">Hire Me!</h1>
   <div class="container">
     <div class="row">
-      <div class="col-6 mt-2">
+      <div class="col-lg-3 me-5">
         <img src="../Images/grad pic hat1.jpg" class="img-thumbnail rounded-5" id="imgthmb">
       </div>
-      <div class="col-2 shadow-lg"></div>
-      <div class="col">
+      <div class="col-lg bg-white bg-opacity-50 shadow-lg mt-2 text-white">
         <div class="row mb-3">
           <p>Full Name</p>
           <h3>Christian P. Borromeo</h3>
@@ -232,6 +226,8 @@
           <p>Educational Attained</p>
           <h3>Bachelor's Degree</h3>
         </div>
+      </div>
+      <div class="col-lg bg-white bg-opacity-25 mt-2 text-white">
         <div class="row mb-3">
           <p>Hometown</p>
           <h3>Quezon City, PHILIPPINES</h3>
@@ -245,8 +241,8 @@
           <h3>xtianbora@gmail.com</h3>
         </div>
       </div>
-    <div class="row mt-lg-5">
-      <a href="../PDFs/CPB.pdf" download class="btn btn-outline-light">CV Download
+    <div class="row mt-lg-5 d-flex justify-content-center">
+      <a href="../PDFs/CPB.pdf" download class="col-4 btn btn-outline-light">CV Download
         <i class="fa-solid fa-file-arrow-down fa-bounce" style="color: #dbdbdc;">
         </i>
       </a>
@@ -257,7 +253,7 @@
 
 <!-- my skills -->
 <div class="padding" id="skills">
-  <h1 id="thiswhat">This is what I do!</h1>
+  <h1 class="mb-5 text-white ms-5">This is what I do!</h1>
 <div class="container p-5 bg-white bg-opacity-10 border border-black rounded-5 shadow-lg">
   <div class="row text-light">
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -279,23 +275,23 @@
 </div>
 
 <!-- my videos -->
-<div class="padding bg-black" id="videos">
-  <h1 class="mb-5" id="vidswith">Vids with My Band!</h1>
+<div class="padding" id="videos">
+  <h1 class="mb-5 text-white ms-5" id="vidswith">Vids with My Band!</h1>
   <div class="container">
-    <div class="row">
-      <div class="col row-cols-1">
+    <div class="row text-white">
+      <div class="col-lg row-cols-1 border border-info">
         <video src="../Videos/Manayakis - Herbz and Spicez Band (Live).mp4"
         controls poster="../Images/poster.jpg">
         </video>
           <p class="text-center"> "Manyakis" <i>by Herbz and Spicez Band</i></p>
       </div>
-      <div class="col row-cols-1">
+      <div class="col-lg row-cols-1 border border-info">
         <video src="../Videos/Yokabats - Herbz and Spicez Band (Live).mp4"
         controls loop poster="../Images/poster.jpg">
         </video>
           <p class="text-center"> "Yokabats" <i>by Herbz and Spicez Band</i></p>
       </div>
-      <div class="col row-cols-1">
+      <div class="col-lg row-cols-1 border border-info">
         <video src="../Videos/Ganyan Talaga - Herbz and Spicez Band (Recording).mp4"
         controls loop poster="../Images/poster.jpg">
         </video>
@@ -308,11 +304,11 @@
 </main>
 
 <!-- footer -->
-<div class="bg-dark pt-5 pb-4">
-<footer class="container text-light-emphasis">
-  <div class="row">
+<div class="bg-dark pt-4">
+<footer class="container">
+  <div class="row text-white-50">
     <div class="col-sm-4">
-      <h5 class="mb-4 text-warning">CONTACTS</h5>
+      <h5 class="mb-4 text-info">CONTACTS</h5>
       <p>
         <i class="fas fa-home mr-5"></i>
         279 Camarin Rd., Caloocan City, PH
@@ -325,11 +321,10 @@
         <i class="fas fa-phone mr-5"></i>
         +63 969 562 8045
       </p>
-
     </div>
 
     <div class="col-sm-4 text-center">
-      <h5 class="text-warning">CONNECT</h5>
+      <h5 class="text-info">CONNECT</h5>
       <a href="https://www.facebook.com/xtianbora" target="_blank" class="fa-brands fa-facebook"></a>
       <a href="https://twitter.com/xtianbora" target="_blank" class="fa-brands fa-twitter"></a>
       <a href="https://www.instagram.com/xtianbora/" target="_blank" class="fa-brands fa-instagram"></a>
@@ -337,13 +332,24 @@
       <a href="https://www.youtube.com/xtianbora" target="_blank" class="fa-brands fa-youtube"></a>
       <a href="https://www.tiktok.com/@xtianbora" target="_blank" class="fa-brands fa-tiktok"></a>
       <br>
-      <h4>Follow me on Social Media</h4>
+      <h4>Follow me on Social Media!</h4>
     </div>
-</div>
+  </div>
+
     <!-- <div class="col-sm-4">
       <img src="/image here.jpg" class="icon">
     </div> -->
-  </div>
+
 </footer>
+</div>
+
+<!-- scroll up -->
+<div class="btn btn-outline-light bg-dark" id="scrollup">
+  <a href="#intro">
+    <i class="fa-regular fa-circle-up fa-bounce fa-lg" style="color: #ffffff;">
+    </i>
+  </a>
+</div>
+
 </body>
 </html>
